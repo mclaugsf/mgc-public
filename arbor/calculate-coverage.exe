@@ -1,0 +1,3 @@
+samtools depth -a -f bam_list.txt | bgzip -c > Arbor-JL_Mother_with_Y_Contigs-NCBI.bgz
+tabix -s1 -b2 -e2 Arbor-JL_Mother_with_Y_Contigs-NCBI.bgz
+

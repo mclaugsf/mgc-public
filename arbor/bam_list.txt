@@ -1,0 +1,7 @@
+/data/strainseek/Arbor-JL_female+Y-arrow-naming/remap-JL_Mother_with_Y_Contigs-NCBI/out.JL_Mother_with_Y_Contigs-NCBI/RSP11176.bam
+/data/strainseek/Arbor-JL_female+Y-arrow-naming/remap-JL_Mother_with_Y_Contigs-NCBI/out.JL_Mother_with_Y_Contigs-NCBI/RSP11177.bam
+/data/strainseek/Arbor-JL_female+Y-arrow-naming/remap-JL_Mother_with_Y_Contigs-NCBI/out.JL_Mother_with_Y_Contigs-NCBI/RSP11180.bam
+/data/strainseek/Arbor-JL_female+Y-arrow-naming/remap-JL_Mother_with_Y_Contigs-NCBI/out.JL_Mother_with_Y_Contigs-NCBI/RSP11184.bam
+/data/strainseek/Arbor-JL_female+Y-arrow-naming/remap-JL_Mother_with_Y_Contigs-NCBI/out.JL_Mother_with_Y_Contigs-NCBI/RSP11191.bam
+/data/strainseek/Arbor-JL_female+Y-arrow-naming/remap-JL_Mother_with_Y_Contigs-NCBI/out.JL_Mother_with_Y_Contigs-NCBI/RSP11196.bam
+/data/strainseek/Arbor-JL_female+Y-arrow-naming/remap-JL_Mother_with_Y_Contigs-NCBI/out.JL_Mother_with_Y_Contigs-NCBI/RSP11197.bam
