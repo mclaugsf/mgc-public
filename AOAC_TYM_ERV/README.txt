@@ -11,7 +11,10 @@ Usage:
        --fq             FastQ1 Pair (i.e. JL.R{1,2}.fastq.gz)
        --r              Fasta Reference
        --out_dir        Output Directory (for things that aren't intermediate files to keep)
-       
+
+
+
+
 ubuntu@mgc_pacbio:~/software/mgc-public/AOAC_TYM_ERV$ nextflow megahit.nf --help
 N E X T F L O W  ~  version 20.04.1
 Launching `megahit.nf` [goofy_meucci] - revision: e285302108
