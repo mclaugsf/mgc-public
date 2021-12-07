@@ -68,7 +68,6 @@ bam_file
     .map {it -> [it[0], it[1], it[1] + '.bai', it[3], it[5]]}
 	.set {blobtools_create_input}
 
-/*
 process blobtools_create {
 	publishDir params."out_dir" + '/' + 'coverage_json/', mode: 'copy', overwrite: true, pattern: '*.json'
 
@@ -123,4 +122,3 @@ process blobtools_plot {
     mv *.blobDB.json.bestsum.phylum.p8.span.100.blobplot.stats.txt ${sample}-\${strain_name}-stats.txt
     """
 }
-*/
