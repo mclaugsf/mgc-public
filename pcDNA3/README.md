@@ -29,3 +29,16 @@ Duration    : 1m 4s
 CPU hours   : 0.1
 Succeeded   : 8
 </pre>
+<h4>Adapter Trimming</h4>
+NOTE: We did run adapter trimming on the FASTQ files using fastp https://github.com/OpenGene/fastp with the following parameters as shown below:
+<pre>
+fastp -i \${fq1} \
+		  -I \${fq2} \
+		  -o ${id_run}_R1_001-fastp-filtered.fastq.gz \
+		  -O ${id_run}_R2_001-fastp-filtered.fastq.gz \
+		  --length_required 45 \
+		  --json ${id_run}-fastp-filter-trim-report.json \
+		  --html ${id_run}-fastp-filter-trim-report.html \
+		  --report_title "${id_run} adapter-trimming filter/trim report" \
+		  --thread ${cpu} \
+</pre>
