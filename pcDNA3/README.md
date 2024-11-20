@@ -40,5 +40,5 @@ fastp -i \${fq1} \
 		  --json ${id_run}-fastp-filter-trim-report.json \
 		  --html ${id_run}-fastp-filter-trim-report.html \
 		  --report_title "${id_run} adapter-trimming filter/trim report" \
-		  --thread ${cpu} \
+		  --thread ${cpu}
 </pre>
