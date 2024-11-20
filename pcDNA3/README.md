@@ -11,7 +11,7 @@ This Nextflow workflow comes with a test data set and can be run as follows:
 After hs1 has been downloaded and indexed, the accompanying test dataset can be run through the workflow and takes approximately 1 minute to complete.  NOTE: you will need to have a computer with the necessary resources to run bwa, but you can edit the accompanying nextflow workflow to reduce these resources and give it a try still.
 
 <h4>Running The Test</h4>
-```
+<pre>
 (base) run-test$ nextflow /home/ubuntu/software/mgc-public/pcDNA3/complete_isling_workflow.nf --vector_ref vector-fasta/pCMV-Spike-sequence-7286-bps.fasta --host_ref ref/hs1.fa --fq '../Test-R{1,2}*.fastq.gz'
 N E X T F L O W  ~  version 21.04.1
 Launching `/home/ubuntu/software/mgc-public/pcDNA3/complete_isling_workflow.nf` [prickly_mendel] - revision: 9bd2329b56
@@ -28,4 +28,4 @@ Completed at: 20-Nov-2024 22:54:09
 Duration    : 1m 4s
 CPU hours   : 0.1
 Succeeded   : 8
-```
+</pre>
