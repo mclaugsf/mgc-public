@@ -12,7 +12,7 @@ After hs1 has been downloaded and indexed, the accompanying test dataset can be 
 
 <h4>Running The Test</h4>
 <pre>
-(base) run-test$ nextflow /home/ubuntu/software/mgc-public/pcDNA3/complete_isling_workflow.nf --vector_ref vector-fasta/pCMV-Spike-sequence-7286-bps.fasta --host_ref ref/hs1.fa --fq '../Test-R{1,2}*.fastq.gz'
+(base) run-test$ nextflow /home/ubuntu/software/mgc-public/pcDNA3/complete_isling_workflow.nf --vector_ref vector-fasta/pCMV-Spike-sequence-7286-bps.fasta --host_ref ref/hs1.fa --fq '../Test-R{1,2}*.fastq.gz' --isling_dir /path/to/isling/git/checkout/
 N E X T F L O W  ~  version 21.04.1
 Launching `/home/ubuntu/software/mgc-public/pcDNA3/complete_isling_workflow.nf` [prickly_mendel] - revision: 9bd2329b56
 executor >  local (8)
