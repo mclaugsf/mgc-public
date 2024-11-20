@@ -15,7 +15,7 @@ the DockerFile used to create the container is here: https://github.com/mclaugsf
 The megaghit nextflow workflow can be run like so:
 
 <pre>
-nextflow megahit.nf --f "*_R{1,2}_001.fastq.gz" --out_dir out
+nextflow nextflow/megahit.nf --f "*_R{1,2}_001.fastq.gz" --out_dir out
 </pre>
 
 This snippet of code (which can also be viewed in the nextflow workflow itself) that calls megahit is here:
